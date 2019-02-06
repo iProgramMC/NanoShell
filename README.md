@@ -40,4 +40,4 @@ NanoShell allows you to utilize the leftover space from flash and RAM (or even o
 Good app design should include:
 * A main loop for user input
 * Reused kernel functionality (to save on RAM)
-* **Use the F() macro when possible (for example in tft.print())**a a
+* **Use the F() macro when possible (for example in tft.print())**
