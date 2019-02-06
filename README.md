@@ -14,9 +14,9 @@ Make sure that the buttons are normally open and don't have latches.
 * UP -> Arduino pin 2, 
 * DOWN -> Arduino pin 3, 
 * LEFT -> Arduino pin 4, 
-RIGHT -> Arduino pin 5, 
-A Button -> Arduino pin 6, 
-B Button -> Arduino pin 12.
+* RIGHT -> Arduino pin 5, 
+* A Button -> Arduino pin 6, 
+* B Button -> Arduino pin 12.
 
 # Connecting the LCD
 * RST -> Arduino pin 7, 
