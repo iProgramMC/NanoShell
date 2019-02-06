@@ -5,10 +5,18 @@ Technically, it should work on a MEGA 2560, but I haven't tried it yet.
 
 Source and pictures can be found here and, hopefully, only here.
 
+## Acknowledgements
+
 It uses Bodmer/TFT_ST7735 (and possibly adafruit/Adafruit-GFX-Library) libraries.
 It also uses EEPROM.h and SPI.h.
 
-## Connecting a few buttons
+## Built with:
+* [Arduino IDE](https://arduino.cc)
+
+## Instructions
+These instructions will help you make yourself a device able to run NanoShell (assuming you've got the right components) for development and testing purposes.
+
+### Connecting a few buttons
 Make sure that the buttons are normally open and don't have latches.
 
 * UP -> Arduino pin 2, 
@@ -18,7 +26,7 @@ Make sure that the buttons are normally open and don't have latches.
 * A Button -> Arduino pin 6, 
 * B Button -> Arduino pin 12.
 
-## Connecting the LCD
+### Connecting the LCD
 * RST -> Arduino pin 7, 
 * CS -> Arduino pin 9, 
 * D/C -> Arduino pin 8, 
@@ -27,7 +35,7 @@ Make sure that the buttons are normally open and don't have latches.
 
 **WARNING**: Please change to these pins in the TFT library's "User_Setup.h" file or the gamepad/screen will **not** work!
 
-## Coding your own apps for the shell
+### Coding your own apps for the shell
 NanoShell allows you to utilize the leftover space from flash and RAM (or even optimize it) to make your own apps. Here are a few steps:
 
 1. Create your own icon and make it into a 2bpp image (B00 is transparent, B11 is black, B10 is white and B01 is the palette) (this is done to save on RAM) and put it in `ICONS.h`
@@ -42,4 +50,6 @@ Good app design should include:
 * Reused kernel functionality (to save on RAM)
 * **Use the `F()` macro when possible (for example in `tft.print()`)**
 
-**Once the kernel has started running your app, you can't go back without returning from your main function. (This is similar to regular C++ apps but not exactly. On Windows you can exit out of a console app at any time. Here you can't. So please give the user a chance to exit without resetting if possible, please)**
+## Extra Info
+
+Once the kernel has started running your app, you can't go back without returning from your main function. (This is similar to regular C++ apps but not exactly. On Windows you can exit out of a console app at any time. Here you can't. So please give the user a chance to exit without resetting if possible, please)
