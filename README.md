@@ -18,6 +18,9 @@ It also uses EEPROM.h and SPI.h.
 
 See also the list of [contributors](https://github.com/iprogrammc/nanoshell/contributors) who participated in this project.
 
+## Licensing
+This project is licensed under the MIT License, which should be provided [here](LICENSE.md).
+
 ## Instructions
 These instructions will help you make yourself a device able to run NanoShell (assuming you've got the right components) for development and testing purposes.
 
