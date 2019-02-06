@@ -8,7 +8,7 @@ Source and pictures can be found here and, hopefully, only here.
 It uses Bodmer/TFT_ST7735 (and possibly adafruit/Adafruit-GFX-Library) libraries.
 It also uses EEPROM.h and SPI.h.
 
-# Connecting a few buttons
+## Connecting a few buttons
 Make sure that the buttons are normally open and don't have latches.
 
 * UP -> Arduino pin 2, 
@@ -18,7 +18,7 @@ Make sure that the buttons are normally open and don't have latches.
 * A Button -> Arduino pin 6, 
 * B Button -> Arduino pin 12.
 
-# Connecting the LCD
+## Connecting the LCD
 * RST -> Arduino pin 7, 
 * CS -> Arduino pin 9, 
 * D/C -> Arduino pin 8, 
