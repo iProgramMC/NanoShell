@@ -27,7 +27,7 @@ Make sure that the buttons are normally open and don't have latches.
 
 **WARNING**: Please change to these pins in the TFT library's "User_Setup.h" file or the gamepad/screen will **not** work!
 
-# Coding your own apps for the shell
+## Coding your own apps for the shell
 NanoShell allows you to utilize the leftover space from flash and RAM (or even optimize it) to make your own apps. Here are a few steps:
 
 1. Create your own icon and make it into a 2bpp image (B00 is transparent, B11 is black, B10 is white and B01 is the palette) (this is done to save on RAM) and put it in `ICONS.h`
