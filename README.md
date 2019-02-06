@@ -41,3 +41,5 @@ Good app design should include:
 * A main loop for user input
 * Reused kernel functionality (to save on RAM)
 * **Use the F() macro when possible (for example in tft.print())**
+
+**Once the kernel has started running your app, you can't go back without returning from your main function. (This is similar to regular C++ apps but not exactly. On Windows you can exit out of a console app at any time. Here you can't. So please give the user a chance to exit without resetting if possible, please)
