@@ -22,8 +22,8 @@ B Button -> Arduino pin 12.
 * RST -> Arduino pin 7, 
 * CS -> Arduino pin 9, 
 * D/C -> Arduino pin 8, 
-DIN -> Arduino pin 11, 
-CLK -> Arduino pin 13, 
+* DIN -> Arduino pin 11, 
+* CLK -> Arduino pin 13, 
 
 **WARNING**: Please change to these pins in the TFT library's "User_Setup.h" file or the gamepad/screen will **not** work!
 
