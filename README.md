@@ -19,9 +19,9 @@ A Button -> Arduino pin 6,
 B Button -> Arduino pin 12.
 
 # Connecting the LCD
-RST -> Arduino pin 7, 
-CS -> Arduino pin 9, 
-D/C -> Arduino pin 8, 
+* RST -> Arduino pin 7, 
+* CS -> Arduino pin 9, 
+* D/C -> Arduino pin 8, 
 DIN -> Arduino pin 11, 
 CLK -> Arduino pin 13, 
 
