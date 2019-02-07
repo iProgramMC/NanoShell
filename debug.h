@@ -22,6 +22,9 @@ SOFTWARE.
 
   Copyright (c) iProgramInCpp 2019.
   Library (c) Adafruit Industries, Bodmer.
+  
+  Function written by GitHub user Testato, original code
+  can be found at https://github.com/arduino/Arduino/issues/5289, comment #10.
 */
 
 int getFreeMemory()
