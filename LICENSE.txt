@@ -1,4 +1,4 @@
-NanoShell - Arduino graphical interface/shell.
+MIT License
 
 Copyright (c) 2019 iProgramInCpp
 
