@@ -63,4 +63,4 @@ Good app design should include:
 
 ## Extra Info
 
-Once the kernel has started running your app, you can't go back without returning from your main function. (This is similar to regular C++ apps but not exactly. On Windows you can exit out of a console app at any time. Here you can't. So please give the user a chance to exit without resetting if possible, please)
+Once the kernel has started running your app, you can't go back without returning from your main function. (This is similar to regular apps but not exactly. On Windows you can request an exit out of an app at any time. Here you can't. So please give the user a chance to exit without resetting if possible, please)
