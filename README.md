@@ -3,8 +3,8 @@
 WARNING: requires 1.5k of RAM, so be careful about which processor you put it on!
 Technically, it should work on a MEGA 2560, but I haven't tried it yet.
 
-edit: it does work on a MEGA but the raw code doesn't compile for the UNO.
-Please remove all branding icons (a*) except a0 and a1, and the draw code.
+edit: it does work on a MEGA but the raw code doesn't compile for the UNO because of flash related problems.
+Please remove all branding icons (a_png*) except a_png0 and a_png1, and the draw code related to it.
 
 Source and pictures can be found here and, hopefully, only here.
 
@@ -28,7 +28,7 @@ This project is licensed under the MIT License, which should be provided [here](
 These instructions will help you make yourself a device able to run NanoShell (assuming you've got the right components) for development and testing purposes.
 
 ### Connecting a few buttons
-Make sure that the buttons are normally open and don't have latches.
+Make sure that the buttons are normally open and are momentary switches.
 
 * UP -> Arduino pin 2, 
 * DOWN -> Arduino pin 3, 
@@ -44,7 +44,7 @@ Make sure that the buttons are normally open and don't have latches.
 * DIN -> Arduino pin 11, 
 * CLK -> Arduino pin 13, 
 
-**WARNING**: Please change to these pins in the TFT library's "User_Setup.h" file or the gamepad/screen will **not** work!
+**WARNING**: Please change to these pins in the TFT library's "User_Setup.h" file or the screen will **not** work properly!
 
 ### Coding your own apps for the shell
 NanoShell allows you to utilize the leftover space from flash and RAM (or even optimize it) to make your own apps. Here are a few steps:
