@@ -1,6 +1,6 @@
 # NanoShell for Arduino
 
-WARNING: requires 1.5k of RAM, so be careful about which processor you put it on!
+WARNING: requires 1.5k of RAM, so be careful about which microcontroller you put it on!
 Technically, it should work on a MEGA 2560, but I haven't tried it yet.
 
 edit: it does work on a MEGA but the raw code doesn't compile for the UNO because of flash related problems.
